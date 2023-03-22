@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!--单独的slogan图片 并且设置下间距-->
+    <item android:bottom="100dp">
+        <bitmap
+            android:gravity="bottom|center_horizontal"
+            android:src="@drawable/icon_splsh" />
+    </item>
+
+</layer-list>
